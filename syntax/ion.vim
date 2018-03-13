@@ -29,6 +29,7 @@ syntax region ionComment start="//" end="$" contains=ionTodo,@Spell oneline
 syntax region ionComment start="/\*" end="\*/" contains=ionTodo,@Spell fold
 
 highlight default link ionComment Comment
+highlight default link ionTodo Todo
 
 
 " Structures
